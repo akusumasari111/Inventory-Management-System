@@ -7,25 +7,25 @@ Selain itu, student akan mengimplementasikan penanganan file untuk mengunggah da
 Detail Assignment
 1. Database Design and Queries
    - Desain sebuah database relasional dengan setidaknya tabel-tabel berikut:
-     • Produk: Menyimpan detail produk (ID, nama, deskripsi, harga, dan kategori).
-     • Inventaris: Melacak tingkat stok dan lokasi produk (ID produk, jumlah, dan lokasi).
-     • Pesanan: Mencatat pesanan pelanggan (ID pesanan, ID produk, jumlah, dan tanggal pesanan).
+     (1) Produk: Menyimpan detail produk (ID, nama, deskripsi, harga, dan kategori);
+     (2) Inventaris: Melacak tingkat stok dan lokasi produk (ID produk, jumlah, dan lokasi);
+     (3) Pesanan: Mencatat pesanan pelanggan (ID pesanan, ID produk, jumlah, dan tanggal pesanan).
    - Write SQL scripts to:
-     • Memasukkan data sampel ke dalam tabel-tabel.
-     • Melakukan query untuk produk, inventaris, dan detail pesanan.
-     • Melakukan agregasi seperti total pesanan untuk suatu produk atau tingkat stok di lokasi tertentu.
+     (1) Memasukkan data sampel ke dalam tabel-tabel;
+     (2) Melakukan query untuk produk, inventaris, dan detail pesanan;
+     (3) Melakukan agregasi seperti total pesanan untuk suatu produk atau tingkat stok di lokasi tertentu.
 
 3. RESTful API Development
    Buat API untuk hal-hal berikut:
    - Produk:
-     • Menambahkan, melihat, memperbarui, dan menghapus produk.
-     • Melihat detail produk berdasarkan ID atau kategori
+     (1) Menambahkan, melihat, memperbarui, dan menghapus produk;
+     (2) Melihat detail produk berdasarkan ID atau kategori.
    - Inventaris:
-     • Melihat tingkat stok untuk suatu produk.
-     • Memperbarui tingkat stok (menambah atau mengurangi stok).
+     (1) Melihat tingkat stok untuk suatu produk;
+     (2) Memperbarui tingkat stok (menambah atau mengurangi stok).
    - Pesanan
-     • Membuat pesanan baru.
-     • Mengambil detail pesanan berdasarkan ID.
+     (1) Membuat pesanan baru;
+     (2) Mengambil detail pesanan berdasarkan ID.
 
 5. API Integration
    - Uji API untuk memastikan integrasi dan fungsionalitas berjalan lancar.
